@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Me</title>
+    <style media="screen">
+      body {
+        background-color: darkslategray;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+      }
+      h1 {color: darkblue}
+      h2 {color: darkslateblue}
+      p {color: lightsteelblue}
+      hr {
+        color: darkslategray;
+      }
+      .bigblock {
+        background-color: sienna;
+        padding:20px;
+      }
+      .header {
+        background-color: sienna;
+        padding:10px;
+        width: 75%;
+        margin:auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <nav>
+        <a href="https://pragmatprevar.github.io/web-dev-hw/website-02/index.html">Instructions</a> &vert;
+        <a href="https://pragmatprevar.github.io/web-dev-hw/website-02/about.html">About</a> &vert;
+        Contact Me
+      </nav>
+    </div>
+    <form class="biblock" action="index.html" method="post">
+      <p>Do you believe magic is real?
+        <br>
+        <input type="radio" name="magic" value="magicyes"> Yes
+        <br>
+        <input type="radio" name="magic" value="magicno"> No
+      </p>
+      <p>What was your sigil representing? <input type="text" name="sigil" value=""></p>
+      <input type="submit" name="sigil" value="Submit">
+    </form>
+    <hr>
+    <p><i>Main Source: Carroll, Peter J.</i> Liber Null and Psychonaut: The Practice of Chaos Magic. <i>Weiser Books, 2022.</i></p>
+    <img src="images/sigil.png" alt="The produced sigil.">
+  </body>
+</html>
