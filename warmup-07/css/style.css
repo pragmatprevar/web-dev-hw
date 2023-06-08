@@ -1,0 +1,25 @@
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+.excerpt {
+  font-family: 'Playfair', serif;
+  font-style: italic;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.excerpt p:first-child::first-letter {
+   font-size: 2.5em;
+   font-weight: bold;
+   color: darkgreen;
+}
+
+a:link {color: darkgreen;}
+a:hover {
+  color: maroon;
+  font-style: italic;
+  font-weight: bold;
+}
+a:visited {color: navy;}
