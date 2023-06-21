@@ -1,0 +1,140 @@
+body {background-color: blanchedalmond;}
+.header {
+  background-color: lightcoral;
+  padding:10px 0px;
+  height: 7%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+  text-align: center;
+  font-family: 'Lexend Peta', sans-serif;
+  font-weight: 600;
+}
+.header1 {
+  width: 22.5%;
+  margin-left: 0%;
+  margin-right: 77.5%;
+}
+.header2 {
+  width: 22.5%;
+  margin-left: 22.5%;
+  margin-right: 55%;
+}
+.header3 {
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+.header4 {
+  width: 22.5%;
+  margin-left: 55%;
+  margin-right: 22.5%;}
+.header5 {
+  width: 22.5%;
+  margin-left: 77.5%;
+  margin-right: 0%;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.currentpage {
+  background-color: darkred;
+  color: white;
+}
+a:link {color:black; font-style: normal; text-decoration: none; background-color: blanchedalmond;}
+a:visited {color:black; font-style: normal; text-decoration: none; background-color: blanchedalmond;}
+a:hover {color:black; background-color: darkred;}
+@media (max-width: 360px) {
+  a {
+    padding: 1.75px 12.5px;
+    border-radius: 1.25px;
+  }
+  .currentpage {
+      border-radius: 1.25px;
+      padding: 1.75px 12.5px;
+  }
+}
+@media (min-width: 361px) {
+  a {
+    padding: 3.5px 25px;
+    border-radius: 2.5px;
+  }
+  .currentpage {
+      border-radius: 2.5px;
+      padding: 3.5px 25px;
+  }
+}
+@media (min-width: 769px) {
+  a {
+    padding: 7px 75px;
+    border-radius: 5px;
+  }
+  .dropdown-ind:hover .dropdown-ind-cont {display: block;}
+  .dropdown-cnt:hover .dropdown-cnt-cont {display: block;}
+  .dropdown-srv:hover .dropdown-srv-cont {display: block;}
+  .dropdown-abt:hover .dropdown-abt-cont {display: block;}
+  .currentpage {
+      border-radius: 5px;
+      padding: 7px 75px;
+  }
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+footer {
+  background-color: lightcoral;
+  color: black;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  left: 0px;
+  text-align: center;
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+.title {
+  padding-top: 30px;
+  padding-left: 2.5%;
+  margin: auto;
+  margin-top: 2%;
+  font-family: 'Lexend Peta', sans-serif;
+  font-weight: 900;
+}
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+.content {
+  width: 95%;
+  margin: auto;
+  height: auto;
+  padding-bottom: 30px;
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-cont {
+  display: none;
+  position: absolute;
+  background-color: darkred;
+  color: black;
+  border-radius: 5px;
+  width: 100%;
+  overflow: auto;
+  font-weight: 300;
+}
